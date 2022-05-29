@@ -46,3 +46,15 @@ body {
     padding-bottom: 4px
   }
   
+  .photo {
+    line-height: 0;
+    margin: 36px; 
+    width: 250px;
+    float: right;
+    border: 1px solid lightgray;
+  }
+
+  .photo img {
+    width: 100%;
+
+  }
