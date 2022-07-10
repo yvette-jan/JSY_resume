@@ -1,60 +1,63 @@
 body {
-    font-family: 'Noto Sans TC', sans-serif;
-    padding: 16px 20px;
-    line-height: 1.45;
-    letter-spacing: 1px
-  }
-  h1 {
-    color: green;
-    font-weight: 700;
-    margin-bottom: 16px
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 16px 20px;
+  line-height: 1.45;
+  letter-spacing: 1px;
+}
+h1 {
+  color: green;
+  font-weight: 700;
+  margin-bottom: 16px;
   /*   font-size: 2rem 2rem == 2*18px */
-  }
-  
-  h2 {
-    font-weight: 700;
-    margin: 12px 0px
-  }
-  
-  h3 {
-    color: green;
-    border-bottom: 2px dotted lightgray;
-    margin: 12px 0px;
-    padding: 4px 0px;
-  }
-  
-  h3 .tag {
-    display: inline-block;
-    vertical-align: bottom;
-    margin-bottom: 2px;
-    font-size: 14px;
-    margin-left: 15px;
-    font-weight: 400;
-    background-color: green;
-    color: white;
-    padding: 1px 6px;
-    border-radius: 12px;
-  }
-  
-  .text-green {
-    color: green
-  }
-  
-  table tr td:first-child {
-    font-weight: bolder; 
-    padding-right: 20px;
-    padding-bottom: 4px
-  }
-  
-  .photo {
-    line-height: 0;
-    margin: 36px; 
-    width: 250px;
-    float: right;
-    border: 1px solid lightgray;
-  }
+}
 
-  .photo img {
-    width: 100%;
+h2 {
+  font-weight: 700;
+  margin: 12px 0px;
+}
 
-  }
+h3 {
+  color: green;
+  border-bottom: 2px dotted lightgray;
+  margin: 12px 0px;
+  padding: 4px 0px;
+}
+
+h3 .tag {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 2px;
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 400;
+  background-color: green;
+  color: white;
+  padding: 1px 6px;
+  border-radius: 12px;
+}
+
+.text-green {
+  color: green;
+}
+
+table tr td:first-child {
+  font-weight: bolder;
+  padding-right: 20px;
+  padding-bottom: 4px;
+}
+
+.photo {
+  line-height: 0;
+  margin: 36px;
+  width: 250px;
+  float: right;
+  border: 1px solid lightgray;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.row img {
+  object-fit: contain !important;
+}
